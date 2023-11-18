@@ -77,7 +77,7 @@ a {
 
 .nav {
   display: flex;
-  flex-wrap: ;
+  flex-wrap: wrap;
 }
 .nav .box {
   display: flex;
