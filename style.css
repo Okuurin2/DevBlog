@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 html {
   height: 100%;
   width: 100%;
@@ -78,6 +80,7 @@ a {
 .nav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .nav .box {
   display: flex;
@@ -86,7 +89,56 @@ a {
   width: 25%;
   height: 25%px;
   background-color: #202050;
+  border: 5px line cornflowerblue;
+  margin: 5%;
+  padding: 2%;
+}
+
+.nav .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 25%px;
+  background-color: #202050;
   border:cornflowerblue;
   margin: 5%;
   padding: 2%;
+}
+
+#operator {
+  color:#6f76d1;
+}
+
+#code {
+  background-color: #121212;
+  font-family:"Space Mono"
+}
+
+#number {
+  color:#25a025
+}
+
+#log {
+  color:#a7d4a7
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.image-tile {
+  width: 30%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-tile img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

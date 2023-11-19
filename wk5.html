@@ -4,12 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Week 3 Dev Blog</title>
-  <link rel="icon" type="image/x-icon" href="sus.png">
+  <title>Week 5 Dev Blog</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
-
+x
 <body>
   <header>
     <nav>
@@ -17,11 +16,11 @@
         <li> <a href= "wk1.html" title = "Week 1"> Week 1</a> </li>
         <li> <a href= "wk2.html" title = "Week 2"> Week 2</a> </li>
         <li> <a href= "wk3.html" title = "Week 3"> Week 3</a> </li>
-        <li> <a href= "wk4.html" title = "Week 4"> Week 3</a> </li>
-        <li> <a href= "wk5.html" title = "Week 5"> Week 3</a> </li>
+        <li> <a href= "wk4.html" title = "Week 4"> Week 4</a> </li>
+        <li> <a href= "wk5.html" title = "Week 5"> Week 5</a> </li>
       </ul>
     </nav>
-    <h1 style=text-align:center;> Week 4</h1>
+    <h1 style=text-align:center;> Week 5</h1>
   </header>
   <hr>
   <section>
@@ -30,6 +29,83 @@
     </div>
     <hr>
     <p>
+    <p>
+      Heya, this week I started learning the basics of JavaScript. So far it's been fairly simple to understand as its somewhat similar to languages I have already learnt
+      (In particular Python lol) <br>
+      <br>
+      Im gonna write a bit so this will be significantly longer than the others lol.
+    </p>
+    <p>
+      There are of course differences in both languages  <br>
+      Objects seems to act like dictionaries in Python, they both have a key value pair function. <br>
+      However the main difference is that the "Keys" in objects are reffered as properties (cuz they are "objects") <br>
+      Anyways, in order to refer to objects, you can just type the object name and the property you are refering to after a dot. For example:
+      <hr>
+      <p id="code">
+      <span id= "tag"> var </span> objectThing = <span id="ids"> { </span> <br>
+        color : <span id="ids"> "blue"</span> <br>
+        number : <span id="number"> 2</span> <br>
+        Value : <span id="ids"> true</span> <br>
+        <span id="ids"> } </span>
+        <br>
+        objectThing.color <br>
+        objectThing.Value = <span id="ids"> false</span> <br>
+        objectThing.string = <span id="ids"> "Words"</span> <br>
+        <br>
+        objectThing
+      </p>
+      <hr>
+      So what this will print is
+      <hr>
+      <p id="code">
+        <span id="log"> 'blue'</span> <br>
+        <span id="ids"> false</span> <br>
+        <span id="log"> 'Words'</span> <br>
+        { color: <span id="log"> 'blue'</span>, number: <span id="number"> 2</span>, Value: <span id="ids"> false</span>, string:<span id="log"> 'Words'</span>}
+      </p>
+      <hr>
+      As you can see its very straightforward and simple compared to python where you have to type fromkeys() or whatever
+    </p> 
+    <p>
+      There are some other features that I like though, for example: <br>
+      Theres two types of comparison operators, them being == and === <br>
+      The difference between them is that === is more strict, for example: <br>
+      <hr>
+      <p id="code">
+      <span id= "tag"> var </span> one = <span id="ids"> "1"  </span> <br>
+      one <span id = "operator"> == </span> <span id="number"> 1 </span> <br>
+      one <span id = "operator"> === </span> <span id="number"> 1 </span> <br>
+      </p> 
+      <hr>
+      The 1st comparison line (==) will print out a <span id="ids"> true </span> value <br>
+      while the 2nd comparison line (===) will print out a <span id="ids"> false </span> value <br>
+      Thats because the variable one is a string value of "1" <br>
+      Since === is more strict, "1" is not the same as 1 <br>    
+      So since == is less strict, it treats "1" and 1 as the same <br>
+      <br>
+      Some functions are also simplified, for example if you want to check the type of variable a variable is, you use <span id="tag">typeof</span> <br>
+      Very straightforward which I like so. 
+    </p>
+    <p>
+      There are of course some things I dislike about JavaScript. <br>
+      One such is that "and" operators and "or" operators are not words but are <span id="tag"> && </span> and <span id="tag"> || </span> respectively <br>
+      It will be pretty weird to type them out, especially <span id="tag"> || </span> but I think I'll get used to it at some point <br>
+      Well, at least if operators are still if
+    </p>
+    <p>
+      Another thing to note is that it seems to follow C language syntax when it comes to conditionals and functions where you need to type {} after. <br>  
+      Though it seems possible to type one liners in if else statements. (Usually only applicable if there is one if else statement) <br>
+      <br>
+      There is also other methods apart from if and else, one of them are called switch case. They act as a bunch of if else statements but they require a <span id="tag"> break </span> statement
+      since each case does not have a {}. <br>
+      Theres also something called <span id="tag"> default </span> that really is just the last "else" in a multiple if else block. <br>
+      Overall this is an interesting method for if else and it has other applications such as cascading code by omitting the <span id="tag"> break </span> <br>
+      <br>
+      But that's not all, there is another method for one liner if else statement which uses <span id="tag">?</span> and <span id="tag">:</span> <br>
+      If its not obvious the <span id="tag">? </span> refers to "if" and <span id="tag">:</span> refers to "else". <br>
+      They look kinda weird to read but its shorter that if else. I don't think I will be using this method often though.
+    </p>
+    Anyways, I don't really wanna put the screenshots on this page (for the quizzes) so you can refer to them <a href= "images.html" title = "Images"> here</a> lol 
 </p>
   </section>
   <footer>
